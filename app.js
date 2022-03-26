@@ -19,7 +19,7 @@ const linkCols = document.querySelectorAll('.link-primary');
 
 function update(){
     dayNum = parseInt(menu.value);
-    for (let i = 0; i < 8; i++){
+    for (let i = 0; i < 7; i++){
         let inrText = subjects[`${days[dayNum]}`][i];
 
         if(inrText == undefined || inrText.length == 0){
